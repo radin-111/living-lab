@@ -7,9 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <style>
         .sora {
             font-family: "Sora", serif;
+            font-optical-sizing: auto;
+        }
+        .poppins{
+            font-family: "Poppins", serif;
             font-optical-sizing: auto;
         }
   
@@ -96,7 +103,7 @@
         </section>
         <!-- Popular Products Section -->
         <section class="mt-48 py-36 bg-[#EFEBE3] max-w-full">
-            <h1 class="font-semibold text-4xl text-[#179800] ml-4 sm:ml-47">Popular Products</h1>
+            <h1 class="font-semibold text-4xl text-[#179800] ml-4 mb-4 sm:ml-47">Popular Products</h1>
             <div class="max-w-[1320px] mx-4 sm:mx-auto sm:mt-12 grid gap-6 grid-cols-2 sm:grid-cols-5">
                 <div class="bg-linear-to-br from-[#53DB3A] to-[#FFFFFF] flex col-span-2 row-span-2 sm:col-span-2 sm:row-span-3 rounded-xl ">
                     <div class="pt-10 pl-6 pb-32 ">
@@ -216,6 +223,32 @@
                 
                 
             </div>
+        </section>
+        <!-- Arrival & Offers Section -->
+        <section class="max-w-[1320px] mx-auto mt-36 mb-40 ">
+            <h1 class="font-semibold text-4xl text-[#179800] ml-4 sm:ml-auto">Arrival & Offers</h1>
+            <div class="poppins mt-10 grid sm:grid-cols-3 grid-cols-1 gap-6">
+                <div class="bg-[#115414] flex gap-14 rounded-2xl sm:col-span-2 col-span-1 max-w-4xl">
+                    <div class="pl-10 py-12 ">
+                        <img src="c2-assets/dawat-logo.png" alt="">
+                        <button class="bg-[#63B76D] text-white rounded-xl px-10 py-4 text-2xl my-7">Cook Exotic Dishes</button>
+                        <h1 class="text-4xl  text-white">UP to <span class="font-bold">20% OFF</span></h1>
+
+                    </div>
+                    <div class="mt-8 mr-0"><img src="c2-assets/dawat-mock-up.png" alt=""></div>
+                </div>
+                <div class="bg-[#102861] rounded-2xl flex gap-6 ">
+                    <div class="pl-7">
+                        <img src="c2-assets/india-gate-logo.png" alt="">
+                        <button class="py-4 px-7 mt-4 mb-7 text-white bg-[#2A4D97] rounded-xl text-2xl">World’s No.1 Rice</button>
+                        <h1 class="text-4xl mb-10 text-white">UP to <span class="font-bold">40% OFF</span></h1>
+                    </div>
+                    <div class="pt-12">
+                        <img src="c2-assets/india-gate-mock-up.png" alt="">
+                    </div>
+                </div>
+            </div>
+            
         </section>
     </main>
     <footer></footer>
